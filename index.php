@@ -7,10 +7,10 @@ and open the template in the editor.
 
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" >
         <title>Lab 1</title>
     </head>
-    <body>
+    <body style="font-size:30px">
         <?php
         //Include student class
         include('student.php');

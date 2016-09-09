@@ -41,9 +41,9 @@ class Student {
     //Turns the data stored in the object into a string
     function toString() {
     $result = $this->first_name . ' ' . $this->surname;
-    $result .= ' ('.$this->average().")\n";
+    $result .= "\nAverage: \t".$this->average()."\n";
     foreach($this->emails as $which=>$what)
-    $result .= $which . ": \t". $what. "\n";
+    $result .= $which . ": \t\t". $what. "\n";
     $result .= "\n";
     return '<pre>'.$result.'</pre>';
     }
